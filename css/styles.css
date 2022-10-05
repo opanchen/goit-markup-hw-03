@@ -137,13 +137,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Hero styles: */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--footer-bg-color);
   text-align: center;
 }
 
-.hero .container {
-  padding: 200px 252px;
-}
 
 .hero-title {
   margin-bottom: 30px;
@@ -181,7 +180,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 /* End Hero styles */
 
 /* Features, Directions & Team Members styles: */
-.section .container {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -198,7 +197,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 /* Features styles: */
-.feature-section .container {
+.feature-section {
   padding-bottom: 0;
 }
 
@@ -270,11 +269,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   background-color: var(--secondary-bg-color);
 }
 
-.team-section .container {
-  padding-top: 94px;
-padding-bottom: 94px;
-}
-
 .team-section .section-title {
   margin-bottom: 50px;
 }
@@ -319,12 +313,10 @@ padding-bottom: 30px;
 
 /* Footer styles: */
 .page-footer {
-  background-color: var(--footer-bg-color);
-}
-
-.page-footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-color: var(--footer-bg-color);
 }
 
 .page-footer .logo {
@@ -366,7 +358,7 @@ padding-bottom: 30px;
 /* Portfolio styles: */
 
 /* Filter styles: */
-.projects-section .container {
+.projects-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
