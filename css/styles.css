@@ -145,6 +145,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 
 .hero-title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 
   color: var(--primary-white-color);
